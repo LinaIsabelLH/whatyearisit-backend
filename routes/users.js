@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET users listing. */
 router.get('/', (req, res) => {
-  res.json({year: '2024'});
+  res.json({year: Date()});
 });
 
 module.exports = router;
